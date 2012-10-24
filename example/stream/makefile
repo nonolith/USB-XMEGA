@@ -5,7 +5,7 @@ HW_VERSION=1.0
 FW_VERSION=$(shell git describe --always --dirty='*')
 
 # MCU name
-MCU = atxmega32a4
+MCU = atxmega32a4u
 ARCH = XMEGA
 DEVICE = AVR_ATxmega32A4U
 
